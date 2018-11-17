@@ -1,0 +1,48 @@
+body {
+    height: 100vh;
+}
+
+.robot {
+    background-image: url('./king.png');
+}
+
+.remoteControl {
+    z-index: 1;
+    position: relative;
+    top: 650px;
+    width: 150px;
+    height: 150px;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    font-size: large;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);;
+}
+
+.up {
+    position: absolute;
+    top: 0;
+    right: 50px;
+}
+
+.down {
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+}
+
+.left {
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+
+.right {
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
